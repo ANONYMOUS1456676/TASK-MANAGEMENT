@@ -1,11 +1,26 @@
 <%- include('partials/header') %>
 
-    <div class="left-cont">
-        <p>A one stop place for all your task managment needs. Here you can create, modify, delete and share or assign tasks with other people.</p>
+    <div class="cont">
 
-    </div>
+        <div class="left-cont">
 
-    <div class="vl"></div>
+            <p>A one stop place for all your task managment needs. Here you can create, modify, delete and share or assign tasks with other people.</p>
+
+        </div>
+
+        <div class="right-cont">
+
+            <h2>Sign-in</h2><br>
+            <hr>
+
+            <form class="sign-in" action="post" >
+                <input class="username" type="text" placeholder="E-mail/Username" name="username"><br>
+                <input class="pass" type="password" placeholder="Password" name="password"><br>
+                <button class="login-btn" type="submit" value="Login"></button>
+            </form>
+
+        </div>
     
+    </div>
 
 <%- include('partials/footer') %>
